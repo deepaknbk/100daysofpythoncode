@@ -7,7 +7,7 @@ cars = {
 }
 
 
-def get_all_jeeps(cars):
+def get_all_jeeps():
     """return a comma  + space (', ') separated string of jeep models
        (original order)"""
     for key,value in cars.items():
@@ -21,7 +21,7 @@ def get_all_jeeps(cars):
             return ', '.join(value)
 
 
-def get_first_model_each_manufacturer(cars):
+def get_first_model_each_manufacturer():
     """return a list of matching models (original ordering)"""
     first_model=[]
     for value in cars.values():
@@ -29,11 +29,13 @@ def get_first_model_each_manufacturer(cars):
     return first_model
 
 
-def get_all_matching_models(cars, grep):
+def get_all_matching_models(grep='Trail'):
     """return a list of all models containing the case insensitive
        'grep' string which defaults to 'trail' for this exercise,
        sort the resulting sequence alphabetically"""
     trail=[]
+    # if grep == '':
+    #     grep='Trail'
     for value in cars.values():
         for model in value:
             if grep.upper() in model.upper():
@@ -42,7 +44,7 @@ def get_all_matching_models(cars, grep):
     return sorted(trail)
 
 
-def sort_car_models(cars):
+def sort_car_models():
     """return a copy of the cars dict with the car models (values)
        sorted alphabetically"""
     sorted_cars = {k: sorted(cars[k]) for k in sorted(cars)}
@@ -53,5 +55,7 @@ def sort_car_models(cars):
 
 print(get_all_jeeps(cars))
 print(get_first_model_each_manufacturer(cars))
-print(get_all_matching_models(cars,'trail'))
-print(sort_car_models(cars))
+print(get_all_jeeps())
+print(get_first_model_each_manufacturer())
+print(get_all_matching_models('CO'))
+print(sort_car_models())
