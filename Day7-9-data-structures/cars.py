@@ -53,8 +53,6 @@ def sort_car_models():
     #     print(key,':',sorted(value))
     return sorted_cars
 
-print(get_all_jeeps(cars))
-print(get_first_model_each_manufacturer(cars))
 print(get_all_jeeps())
 print(get_first_model_each_manufacturer())
 print(get_all_matching_models('CO'))
