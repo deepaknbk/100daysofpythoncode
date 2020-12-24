@@ -13,4 +13,8 @@ for value in collection:
     if condition:
         values.append(expression)
         
+ While Loops: 
+ - Single like while loop: while n > 0: n -= 1; print(n)
+ while <condition>: statement1 ; statement2
+        
 
