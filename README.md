@@ -13,8 +13,21 @@ for value in collection:
     if condition:
         values.append(expression)
         
- While Loops: 
+ **While Loops:** 
  - Single like while loop: while n > 0: n -= 1; print(n)
  while <condition>: statement1 ; statement2
-        
+ 
+ **Boiler Plate template for Decorators**
+
+_More details on decorators can be found in Day22 folder_  
+
+    import functools
+    def decorator(func): 
+    @functools.wraps(func)
+    def wrapper_decorator(*args, **kwargs):
+        # Do something before
+        value = func(*args, **kwargs)
+        # Do something after
+        return value
+    return wrapper_decorator        
 
