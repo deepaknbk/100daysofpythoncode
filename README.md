@@ -29,5 +29,17 @@ _More details on decorators can be found in Day22 folder_
         value = func(*args, **kwargs)
         # Do something after
         return value
-    return wrapper_decorator        
+    return wrapper_decorator     
+    
+     def name(arg_1, ...):
+        def decorator_name(func):
+            @functools.wraps(func)
+            def wrapper_name(*args, **kwargs):
+                # Do something before using arg_1, ...
+                value = func(*args, **kwargs)
+                # Do something after using arg_1, ...
+                return value
+            return wrapper_name
+        return decorator_name
+   
 
