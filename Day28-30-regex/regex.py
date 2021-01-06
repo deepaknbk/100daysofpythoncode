@@ -1,20 +1,13 @@
 import re
 
-# COURSE = ('Introduction 1 Lecture 01:47'
-#           'The Basics 4 Lectures 32:03'
-#           'Getting Technical!  4 Lectures 41:51'
-#           'Challenge 2 Lectures 27:48'
-#           'Afterword 1 Lecture 05:02')
-COURSE = ('00:40 Lesson introduction'
-              '01:33 Your 3 day overview'
-              '08:12 Learning datetime and date'
-              '06:07 Datetime timedelta usage'
-              '04:02 Concepts: what did we learn')
-TWEET = ('PyBites My Reading List | 12 Rules for Life - #books '
-             'that expand the mind! '
-             'http://pbreadinglist.herokuapp.com/books/'
-             'TvEqDAAAQBAJ#.XVOriU5z2tA.twitter'
-             ' #psychology #philosophy')
+COURSE = ('Introduction 1 Lecture 01:47'
+          'The Basics 4 Lectures 32:03'
+          'Getting Technical!  4 Lectures 41:51'
+          'Challenge 2 Lectures 27:48'
+          'Afterword 1 Lecture 05:02')
+TWEET = ('New PyBites article: Module of the Week - Requests-cache '
+         'for Repeated API Calls - http://pybit.es/requests-cache.html '
+         '#python #APIs')
 HTML = ('<p>pybites != greedy</p>'
         '<p>not the same can be said REgarding ...</p>')
 
