@@ -37,28 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.isphnum">
-    <configuration name="TrafficSignal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100daysofpythoncode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day19-21-itertools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day19-21-itertools/TrafficSignal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.regex">
     <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100daysofpythoncode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +101,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="regex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100daysofpythoncode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day28-30-regex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day28-30-regex/regex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100daysofpythoncode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regex" />
         <item itemvalue="Python.isphnum" />
         <item itemvalue="Python.test_decorators" />
         <item itemvalue="Python.decorators" />
         <item itemvalue="Python.traffic_light" />
-        <item itemvalue="Python.TrafficSignal" />
       </list>
     </recent_temporary>
   </component>
@@ -217,22 +217,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="615" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1607830408037" />
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1609647701996">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1609899825306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609647701996" />
-    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1609647701996">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609899825306" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1609899825306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609647701996" />
-    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1609647701995">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609899825306" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1609899825305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609647701995" />
-    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1609647701996">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609899825305" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1609899825306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609647701996" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609899825306" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1608698620644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
