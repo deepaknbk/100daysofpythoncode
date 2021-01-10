@@ -23,7 +23,7 @@ def init():
         for row in reader:
             record=parse_row(row)
             data.append(record)
-    print(data)
+    #print(data)
 
 
 
@@ -39,4 +39,4 @@ def parse_row(row):
     return record
 
 def get_hottest_days():
-    pass
+    return sorted(data)

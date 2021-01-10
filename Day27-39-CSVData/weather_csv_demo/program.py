@@ -6,9 +6,9 @@ def main():
     research.init()
     #To Do: Read CSV file
 
-    #get_hottest_days()
+    days=research.get_hottest_days()
     # Get top 5 hottest days
-
+    print(days)
     #get_coldest_days()
     #Get top 5 clod days
     pass

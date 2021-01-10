@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b69eb20-94c6-4e05-9db4-d85ad4322a5b" name="Default Changelist" comment="initial template">
-      <change afterPath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/data/seattle.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/research.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/research.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day27-39-CSVData/weather_csv_demo/research.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
