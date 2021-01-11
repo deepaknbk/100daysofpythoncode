@@ -28,9 +28,8 @@ def init():
 
 
 def parse_row(row):
-    row['actual_max_temp'] = int(row['actual_mean_temp'])
-    row['actual_min_temp'] = int(row['actual_min_temp'])
     row['actual_max_temp'] = int(row['actual_max_temp'])
+    row['actual_min_temp'] = int(row['actual_min_temp'])
     row['actual_precipitation'] = float(row['actual_precipitation'])
 
     record = Record(
@@ -39,4 +38,7 @@ def parse_row(row):
     return record
 
 def get_hottest_days():
-    return sorted(data)
+    return sorted(data,key=lambda x: -x.actual_max_temp)
+
+def get_coldest_days():
+    return sorted(data,key=lambda x: x.actual_max_temp)

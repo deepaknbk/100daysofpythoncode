@@ -8,8 +8,13 @@ def main():
 
     days=research.get_hottest_days()
     # Get top 5 hottest days
-    print(days)
-    #get_coldest_days()
+    for idx,day in enumerate(days[:5]):
+        print(f'{idx+1}. {day.date} is hottest day with {day.actual_max_temp} F')
+
+    print()
+    days=research.get_coldest_days()
+    for idx,day in enumerate(days[:5]):
+        print(f'{idx+1}. {day.date} is coldest day with {day.actual_max_temp} F')
     #Get top 5 clod days
     pass
 
