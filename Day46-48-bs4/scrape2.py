@@ -11,14 +11,8 @@ def scrape_site(site):
     podcast_list=[]
 
     soup=bs4.BeautifulSoup(site.text,'html.parser')
-    #print(soup.body.header.nav.gettext())
-    podcast_headers=soup.select('.episode-list')
+    print(soup.body.header.nav.find_all('a'))
 
-    for podcast in podcast_headers:
-        podcast_list.append(podcast.getText())
-        #print(podcast)
-
-    print(podcast_list)
 
 if __name__=='__main__':
     site=site_ping()
