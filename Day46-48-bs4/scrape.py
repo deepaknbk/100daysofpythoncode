@@ -1,7 +1,7 @@
 import requests
 import bs4
 
-url="https://www.pybitespodcast.com/"
+url="https://pybit.es/pages/projects.html"
 def site_ping():
     raw_site=requests.get(url)
     raw_site.raise_for_status()
@@ -12,11 +12,11 @@ def scrape_site(site):
 
     soup=bs4.BeautifulSoup(site.text,'html.parser')
     #print(soup.body.header.nav.gettext())
-    podcast_headers=soup.select('.episode-list')
+    podcast_headers=soup.select('.projectHeader')
 
     for podcast in podcast_headers:
         podcast_list.append(podcast.getText())
-        #print(podcast)
+        print(podcast.getText())
 
     print(podcast_list)
 
