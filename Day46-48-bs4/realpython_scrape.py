@@ -6,6 +6,8 @@ def scrape():
         content = f.read()
 
     soup=bs4.BeautifulSoup(content,'html.parser')
+    print(soup.prettify())
+    print('\n')
     print(soup.select('.card-deck'))
 
 
